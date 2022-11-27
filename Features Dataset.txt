@@ -1,0 +1,15 @@
+- <b>Id</b> - um Id que representa uma duplicata (Store, Date) dentro do conjunto de teste
+- <b>Store</b> - um ID exclusivo para cada loja
+- <b>Sales</b> - o volume de negócios para um determinado dia (isto é o que você está prevendo)
+- <b>Customers</b> - o número de clientes em um determinado dia
+- <b>Open</b>- um indicador para saber se a loja estava aberta: 0 = fechado, 1 = aberto
+- <b>StateHoliday</b> - indica um feriado estadual. Normalmente todas as lojas, com poucas exceções, fecham nos feriados estaduais. Observe que todas as escolas fecham nos feriados e fins de semana. a = feriado, b = feriado da Páscoa, c = Natal, 0 = nenhum
+- <b>SchoolHoliday</b> - indica se o (Store, Date) foi afetado pelo fechamento das escolas públicas
+- <b>StoreType</b> - diferencia entre 4 modelos de loja diferentes: a, b, c, d
+- <b>Assortment</b> - descreve um nível de sortimento: a = básico, b = extra, c = estendido
+- <b>CompetitionDistance</b> - distância em metros até a loja concorrente mais próxima
+- <b>CompetitionOpenSince[Month/Year]</b> - fornece o ano e o mês aproximados da hora em que o concorrente mais próximo foi aberto
+- <b>Promo</b> - indica se uma loja está realizando uma promoção naquele dia
+- <b>Promo2</b> - Promo2 é uma promoção contínua e consecutiva para algumas lojas: 0 = loja não está participando, 1 = loja está participando
+- <b>Promo2Since[Year/Week]</b> - descreve o ano e a semana do calendário em que a loja começou a participar do Promo2
+- <b>PromoInterval</b> - descreve os intervalos consecutivos em que o Promo2 é iniciado, nomeando os meses em que a promoção é reiniciada. Por exemplo. "Fevereiro, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para essa loja
